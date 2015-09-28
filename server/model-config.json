@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Bikeando": {
+    "dataSource": "bikeando",
+    "public": true
   }
 }

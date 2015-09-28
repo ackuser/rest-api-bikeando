@@ -1,0 +1,29 @@
+{
+  "name": "Bikeando",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "mongodb": {
+    "collection": "stations"
+  },
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "styleUrl": {
+      "type": "string"
+    },
+    "Point": {
+      "type": "geopoint"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
