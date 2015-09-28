@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "bikeando": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "citybikelondon",
+    "name": "bikeando",
+    "connector": "mongodb",
+    "user": ""
   }
 }
